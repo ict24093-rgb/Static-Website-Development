@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badulla — Hill Country Soul</title>
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-brand">Badulla</div>
+        <div class="nav-links">
+            <button class="nav-btn active" data-target="0">Home</button>
+            <button class="nav-btn" data-target="1">About</button>
+            <button class="nav-btn" data-target="2">Attractions</button>
+            <button class="nav-btn" data-target="3">Culture</button>
+            <button class="nav-btn" data-target="4">Contact</button>
+        </div>
+    </nav>
+
+    <div class="slider-wrapper" id="sliderWrapper">
+
+        <!-- ======================== HOME PAGE ======================== -->
+        <section class="page-panel home-bg">
+            <div class="home-overlay"></div>
+            <div class="home-content">
+                <span class="home-eyebrow">Sri Lanka's Hidden Highland</span>
+                <h1 class="home-title">Badulla<br><em>District</em></h1>
+                <p class="home-tagline">Where mist clings to tea terraces, waterfalls carve ancient rock,<br>and every trail leads somewhere worth remembering.</p>
+                <div class="home-hints">
+                    <div class="hint-item">
+                        <span class="hint-icon">🌿</span>
+                        <span>Tea Estates</span>
+                    </div>
+                    <div class="hint-item">
+                        <span class="hint-icon">💧</span>
+                        <span>Waterfalls</span>
+                    </div>
+                    <div class="hint-item">
+                        <span class="hint-icon">🏔️</span>
+                        <span>Hill Trails</span>
+                    </div>
+                    <div class="hint-item">
+                        <span class="hint-icon">🛕</span>
+                        <span>Ancient Temples</span>
+                    </div>
+                    <div class="hint-item">
+                        <span class="hint-icon">🚂</span>
+                        <span>Scenic Railways</span>
+                    </div>
+                </div>
+                <button class="home-cta nav-btn" data-target="1">Explore the District →</button>
+            </div>
+            </section>
+
+        <!-- ======================== ABOUT PAGE ======================== -->
+        <section class="page-panel about-bg">
+            <div id="about-over"></div>
+            <div class="about-inner">
+
+                <!-- Hero block -->
+                <div class="about-hero">
+                    <div class="about-hero-text">
+                        <span class="about-eyebrow">Uva Province · Sri Lanka</span>
+                        <h2 class="about-title">Where the<br><em>highlands</em><br>breathe.</h2>
+                        <p class="about-intro">Badulla is the administrative capital of Uva Province, nestled among the central highlands at roughly 680 metres above sea level. It is one of Sri Lanka's oldest towns — a place where British colonial railways still wind through mountains, where Buddhist temples stand beside Hindu kovils, and where the air carries the faint sweetness of tea.</p>
+                    </div>
+                    <div class="about-hero-img">
+                        <img src="webp/Badulla (2).webp" 
+                             alt="Badulla town nestled in hills"
+                             onerror="this.style.background='#5a7a4a';this.style.display='block';this.style.height='100%'">
+                        <div class="about-img-caption">Badulla town, Uva Province</div>
+                    </div>
+                </div>
+
+                <!-- Stats row -->
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">680m</span>
+                        <span class="stat-label">Elevation above sea level</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number">2,861</span>
+                        <span class="stat-label">km² district area</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number">900+</span>
+                        <span class="stat-label">years of recorded history</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number">18°C</span>
+                        <span class="stat-label">Average temperature</span>
+                    </div>
+                </div>
+
+                <!-- Two column detail -->
+                <div class="about-detail-grid">
+                    <div class="about-detail-col">
+                        <div class="about-detail-img-wrap">
+                            <img src="webp/dunhinda.webp" 
+                                 alt="Dunhinda Falls"
+                                 onerror="this.style.background='#6b8f5e'">
+                        </div>
+                        <h3>Nature at Every Turn</h3>
+                        <p>Dunhinda Falls plunges 64 metres into a misty gorge. The Ella Gap offers one of the island's most photographed panoramas. Knuckles Range foothills and the Namunukula mountain range frame the district in ancient forest. Every road through Badulla is a scenic route.</p>
+                    </div>
+                    <div class="about-detail-col">
+                        <h3>A Living History</h3>
+                        <p>The Muthiyangana Raja Maha Viharaya is among Sri Lanka's most sacred Buddhist temples, believed to have been visited by the Buddha himself. The town's colonial-era clock tower and the Demodara railway loop — where the train passes over its own tracks — are living reminders of a layered past.</p>
+                        <div class="about-detail-img-wrap">
+                            <img src="webp/nine.webp" 
+                                 alt="Demodara Nine Arch Bridge"
+                                 onerror="this.style.background='#8a6e4a'">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Discover cards -->
+                <div class="about-discover">
+                    <div class="about-discover-header">
+                        <p class="about-discover-sub">Choose where you want to start</p>
+                        <h3 class="about-discover-title">Discover</h3>
+                    </div>
+                    <div class="about-cards">
+                        <div class="about-card">
+                            <div class="about-card-img" style="background: linear-gradient(135deg, #4a7c59, #2d5a3d);">
+                                <span class="about-card-emoji">🌊</span>
+                            </div>
+                            <h4>Dunhinda Falls</h4>
+                            <p>Sri Lanka's widest waterfall, hidden in a jungle gorge just 5km from Badulla town.</p>
+                        </div>
+                        <div class="about-card">
+                            <div class="about-card-img" style="background: linear-gradient(135deg, #7a5c3a, #5a3e22);">
+                                <span class="about-card-emoji">🚂</span>
+                            </div>
+                            <h4>Demodara Loop</h4>
+                            <p>A feat of colonial engineering — the train circles under itself through a unique figure-eight rail loop.</p>
+                        </div>
+                        <div class="about-card">
+                            <div class="about-card-img" style="background: linear-gradient(135deg, #6b5a7a, #4a3a5a);">
+                                <span class="about-card-emoji">🛕</span>
+                            </div>
+                            <h4>Muthiyangana Temple</h4>
+                            <p>One of the 16 sacred sites of Sri Lanka, steeped in over 2,500 years of Buddhist devotion.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ======================== ATTRACTIONS PAGE ======================== -->
+        <section class="page-panel attractions-bg">
+            <div class="attractions-inner">
+                <div class="attractions-header">
+                    <span class="section-eyebrow">Things to See & Do</span>
+                    <h2 class="section-title">Attractions</h2>
+                    <p class="section-sub">Scroll down through each destination</p>
+                </div>
+
+                <!-- Card 1 -->
+                <div class="attr-card" style="--card-color: #ffffff;">
+                    <div class="attr-card-img-side">
+                        <div class="attr-card-img-bg">
+                            <img src="webp/dunhinda 2_.webp" alt="Dunhinda Falls" class="attr-card-image" style="width: 100%; height: 100%; object-fit: cover; display: block;" />
+                        </div>
+                    </div>
+                    <div class="attr-card-text-side">
+                        <span class="attr-card-number">01</span>
+                        <h3 class="attr-card-title">Dunhinda Falls</h3>
+                        <span class="attr-card-tag">Waterfall · Nature</span>
+                        <p>Dunhinda is Sri Lanka's most celebrated waterfall — not for its height (64m) but for its extraordinary width and the roaring cloud of mist it sends into the surrounding jungle. The name means "milky waters" in Sinhala. A 1.5km forest trail from the entrance winds through dense greenery before the falls come into dramatic view. The pool at the base shimmers even on overcast days.</p>
+                        <div class="attr-card-details">
+                            <div class="attr-detail"><span class="attr-detail-label">Distance from Badulla</span><span>5 km</span></div>
+                            <div class="attr-detail"><span class="attr-detail-label">Trek duration</span><span>~30 min each way</span></div>
+                            <div class="attr-detail"><span class="attr-detail-label">Best time</span><span>Morning, post-rain season</span></div>
+                            <div class="attr-detail"><span class="attr-detail-label">Location</span><span><a href="https://maps.app.goo.gl/xQ6LWmqnA6wS4pTLA">Click Here</a></span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="attr-card attr-card-reverse" style="--card-color: #5a3e22;">
+                    <div class="attr-card-img-side">
+                        <div class="attr-card-img-bg">
+                            <img src="webp/railway loop_.webp" alt="Demodara railway loop" class="attr-card-image" style="width: 100%; height: 100%; object-fit: cover; display: block;" />
+                        </div>
+                    </div>
+                    <div class="attr-card-text-side">
+                        <span class="attr-card-number">02</span>
+                        <h3 class="attr-card-title">Demodara Railway Loop</h3>
+                        <span class="attr-card-tag">Engineering · Heritage</span>
+                        <p>One of the world's most remarkable pieces of railway engineering. Built by the British in 1921, the Demodara Loop is a spiral section of track where the train passes over itself via a tunnel — descending 30 metres in elevation within a tight mountain radius. The nearby Nine Arch Bridge is an iconic colonial viaduct built entirely from brick and stone, framed by lush tea fields.</p>
+                        <div class="attr-card-details">
+                            <div class="attr-detail"><span class="attr-detail-label">Location</span><span>Demodara, 10km from Badulla</span></div>
+                            <div class="attr-detail"><span class="attr-detail-label">Train route</span><span>Badulla–Kandy line</span></div>
+                            <div class="attr-detail"><span class="attr-detail-label">Best view</span><span>From Ella side trail</span></div>
+                            <div class="attr-detail"><span class="attr-detail-label">Location</span><span><a href="https://maps.app.goo.gl/MPiErk3ezRDxoKqCA">Click Here</a></span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="attr-card" style="--card-color: #4a3a5a;">
+                    <div class="attr-card-img-side">
+                        <div class="attr-card-img-bg">
+                            <img src="webp/muthiyangana_.webp" alt="Muthiyangana Viharaya" class="attr-card-image" style="width: 100%; height: 100%; object-fit: cover; display: block;" />
+                        </div>
+                    </div>
+                    <div class="attr-card-text-side">
+                        <span class="attr-card-number">03</span>
+                        <h3 class="attr-card-title">Muthiyangana Viharaya</h3>
+                        <span class="attr-card-tag">Temple · Pilgrimage</span>
+                        <p>Among the 16 holiest Buddhist sites in Sri Lanka, the Muthiyangana Raja Maha Viharaya is believed to have been blessed by the Buddha during his second visit to the island. The complex houses ancient relics, a soaring white dagoba (stupa), and beautifully painted murals. The temple comes alive during the annual Badulla Perahera festival with elephants, drummers, and torchlight processions.</p>
+                        <div class="attr-card-details">
+                            <div class="attr-detail"><span class="attr-detail-label">Location</span><span>Badulla town centre</span></div>
+                            <div class="attr-detail"><span class="attr-detail-label">Entry</span><span>Free (donations welcome)</span></div>
+                            <div class="attr-detail"><span class="attr-detail-label">Dress code</span><span>Shoulders & knees covered</span></div>
+                            <div class="attr-detail"><span class="attr-detail-label">Location</span><span><a href="https://maps.app.goo.gl/cHuV3kWoQvn1jbts8">Click Here</a></span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="attr-card attr-card-reverse" style="--card-color: #3a5a2a;">
+                    <div class="attr-card-img-side">
+                        <div class="attr-card-img-bg">
+                            <img src="webp/ella gap_upscayl_5x_ultramix-balanced-4x.webp" alt="Ella Gap" class="attr-card-image" style="width: 100%; height: 100%; object-fit: cover; display: block;" />
+                        </div>
+                    </div>
+                    <div class="attr-card-text-side">
+                        <span class="attr-card-number">04</span>
+                        <h3 class="attr-card-title">Ella Gap & Namunukula</h3>
+                        <span class="attr-card-tag">Panorama · Hiking</span>
+                        <p>The Ella Gap is a natural break in the mountain ridge that frames one of Sri Lanka's most breathtaking views — tea fields descending steeply towards the southern coastal plains. Namunukula, meaning "nine peaks," is the dominant mountain of the range at 2,036m and offers challenging trekking through cloud forest. On clear mornings, you can see almost to the coast.</p>
+                        <div class="attr-card-details">
+                            <div class="attr-detail"><span class="attr-detail-label">Namunukula height</span><span>2,036 m</span></div>
+                            <div class="attr-detail"><span class="attr-detail-label">Trek difficulty</span><span>Moderate–Strenuous</span></div>
+                            <div class="attr-detail"><span class="attr-detail-label">Best season</span><span>Jan–April, July–Sept</span></div>
+                            <div class="attr-detail"><span class="attr-detail-label">Location</span><span><a href="https://maps.app.goo.gl/V9fb89HkAHtmHGGM7">Click Here</a></span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="attr-card" style="--card-color: #5a4a2a;">
+                    <div class="attr-card-img-side">
+                        <div class="attr-card-img-bg">
+                            <img src="webp/halpewatte-tea-factory-.webp" alt="Tea Estates" class="attr-card-image" style="width: 100%; height: 100%; object-fit: cover; display: block;" />
+                        </div>
+                    </div>
+                    <div class="attr-card-text-side">
+                        <span class="attr-card-number">05</span>
+                        <h3 class="attr-card-title">Uva Tea Estates</h3>
+                        <span class="attr-card-tag">Plantation · Experience</span>
+                        <p>Uva Province produces some of the world's most distinctive teas — a character shaped by the dry Cachan winds that sweep through the highlands each July and August, concentrating the flavour of the leaf. Several estates around Badulla and Ella welcome visitors for factory tours, tasting sessions, and walks through the geometrically perfect rows of tea bushes managed by skilled pluckers.</p>
+                        <div class="attr-card-details">
+                            <div class="attr-detail"><span class="attr-detail-label">Peak flavour season</span><span>July – September</span></div>
+                            <div class="attr-detail"><span class="attr-detail-label">Notable estates</span><span>Uva Halpewatte, Hali Ela</span></div>
+                            <div class="attr-detail"><span class="attr-detail-label">Tour duration</span><span>1–2 hours</span></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ======================== CULTURE PAGE ======================== -->
+        <section class="page-panel culture-bg">
+            <div class="attractions-inner">
+                <div class="attractions-header">
+                    <span class="section-eyebrow">Flavours & Traditions</span>
+                    <h2 class="section-title">Culture</h2>
+                    <p class="section-sub">The food, festivals, and customs of Uva</p>
+                </div>
+
+                <!-- Food Card 1 -->
+                <div class="attr-card" style="--card-color: #6b3a1a;">
+                    <div class="attr-card-img-side">
+                        <div class="attr-card-img-bg">
+                            <img src="webp/sri-lankan-curries-at.webp" alt="Tea Estates" class="attr-card-image" style="width: 100%; height: 100%; object-fit: cover; display: block;" />
+                        </div>
+                    </div>
+                    <div class="attr-card-text-side">
+                        <span class="attr-card-number">F1</span>
+                        <h3 class="attr-card-title">Rice & Curry</h3>
+                        <span class="attr-card-tag">Staple Food · Daily Meal</span>
+                        <p>The heartbeat of Badulla's food culture. A typical Uva-style rice and curry spread arrives with steamed red rice at the centre, surrounded by a constellation of small bowls: jackfruit curry, dhal, parippu, gotukola sambol, and a fiery green chilli condiment. The curries here lean on locally grown spices — goraka, fenugreek, and pandan — giving them a depth different from coastal Sri Lankan cooking.</p>
+                        <div class="attr-card-details">
+                            <div class="attr-detail"><span class="attr-detail-label">Best tried at</span><span>Local roadside restaurants</span></div>
+                            <div class="attr-detail"><span class="attr-detail-label">Meal time</span><span>Lunch (12–2 PM)</span></div>
+                            <div class="attr-detail"><span class="attr-detail-label">Price range</span><span>LKR 200–500</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Food Card 2 -->
+                <div class="attr-card attr-card-reverse" style="--card-color: #2a4a3a;">
+                    <div class="attr-card-img-side">
+                        <div class="attr-card-img-bg">
+                            <img src="webp/teapond_jp-2025_BOP_458b95ef-c533-4e8d-acbc-a9400603d948.webp" alt="Tea Estates" class="attr-card-image" style="width: 100%; height: 100%; object-fit: cover; display: block;" />
+                        </div>
+                    </div>
+                    <div class="attr-card-text-side">
+                        <span class="attr-card-number">F2</span>
+                        <h3 class="attr-card-title">Uva Highland Tea</h3>
+                        <span class="attr-card-tag">Beverage · Cultural Icon</span>
+                        <p>Uva tea is not just a drink — it is a world-recognised origin. Produced at elevations above 1,200m, the tea has a distinctive bright, brisk character with a subtle menthol finish that comes from the seasonal Cachan winds. Served plain in a small glass with a spoonful of jaggery on the side, a cup of highland tea at a plantation bungalow is one of Badulla's most lasting sensory memories.</p>
+                        <div class="attr-card-details">
+                            <div class="attr-detail"><span class="attr-detail-label">Flavour profile</span><span>Brisk, bright, lightly floral</span></div>
+                            <div class="attr-detail"><span class="attr-detail-label">Peak quality</span><span>August harvest</span></div>
+                            <div class="attr-detail"><span class="attr-detail-label">Where to buy</span><span>Factory shops, Badulla market</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Food Card 3 -->
+                <div class="attr-card" style="--card-color: #4a3a1a;">
+                    <div class="attr-card-img-side">
+                        <div class="attr-card-img-bg">
+                            <img src="webp/ppittu.webp" alt="Tea Estates" class="attr-card-image" style="width: 100%; height: 100%; object-fit: cover; display: block;" />
+                        </div>
+                    </div>
+                    <div class="attr-card-text-side">
+                        <span class="attr-card-number">F3</span>
+                        <h3 class="attr-card-title">Pittu & Kiri Hodhi</h3>
+                        <span class="attr-card-tag">Traditional Breakfast</span>
+                        <p>A beloved highland breakfast: pittu is steamed cylinders of rice flour and coconut, served with kiri hodhi — a gentle coconut milk gravy — alongside banana and a sharp pol sambol. In the cool morning air of Badulla, this dish is warming and grounding. You will find it at small hotels and family-run kades (local eateries) from around 6am, enjoyed by workers and travellers alike.</p>
+                        <div class="attr-card-details">
+                            <div class="attr-detail"><span class="attr-detail-label">Meal time</span><span>Early breakfast (6–9 AM)</span></div>
+                            <div class="attr-detail"><span class="attr-detail-label">Found at</span><span>Kades, guesthouses</span></div>
+                            <div class="attr-detail"><span class="attr-detail-label">Price</span><span>LKR 150–300</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tradition Card 1 -->
+                <div class="attr-card attr-card-reverse" style="--card-color: #4a1a3a;">
+                    <div class="attr-card-img-side">
+                        <div class="attr-card-img-bg">
+                            <img src="webp/tse4_mm_bing_net-OIP_upscayl_6x_ultramix-balanced-4x.webp" alt="Tea Estates" class="attr-card-image" style="width: 100%; height: 100%; object-fit: cover; display: block;" />
+                        </div>
+                    </div>
+                    <div class="attr-card-text-side">
+                        <span class="attr-card-number">T1</span>
+                        <h3 class="attr-card-title">Badulla Perahera</h3>
+                        <span class="attr-card-tag">Festival · Buddhist Tradition</span>
+                        <p>The Muthiyangana Perahera is one of the most spectacular festivals in Uva Province. Held annually, it transforms Badulla's streets into a river of light, colour, and sound. Caparisoned elephants carry ornate caskets of sacred relics; Kandyan drummers beat rhythms that echo off the hillsides; fire jugglers and traditional dancers process through the night. The event draws pilgrims and visitors from across the island.</p>
+                        <div class="attr-card-details">
+                            <div class="attr-detail"><span class="attr-detail-label">When</span><span>Esala full moon (July–August)</span></div>
+                            <div class="attr-detail"><span class="attr-detail-label">Duration</span><span>Several nights</span></div>
+                            <div class="attr-detail"><span class="attr-detail-label">Centred at</span><span>Muthiyangana Viharaya</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tradition Card 2 -->
+                <div class="attr-card" style="--card-color: #1a3a5a;">
+                    <div class="attr-card-img-side">
+                        <div class="attr-card-img-bg">
+                            <img src="webp/kandyan.webp" alt="Tea Estates" class="attr-card-image" style="width: 100%; height: 100%; object-fit: cover; display: block;" />
+                        </div>
+                    </div>
+                    <div class="attr-card-text-side">
+                        <span class="attr-card-number">T2</span>
+                        <h3 class="attr-card-title">Kandyan Arts & Craft</h3>
+                        <span class="attr-card-tag">Traditional Arts · Heritage</span>
+                        <p>The Uva highlands have long been a cradle of Kandyan artistic tradition. Ves dance — performed by men in full ceremonial costume with elaborate headdresses — is one of Sri Lanka's most technically demanding classical dance forms, and its practitioners are found in Badulla's cultural associations. Local craftspeople produce handloom textiles, lacquerware, and brass ritual objects that carry centuries of design vocabulary.</p>
+                        <div class="attr-card-details">
+                            <div class="attr-detail"><span class="attr-detail-label">Where to see</span><span>Cultural shows, festivals</span></div>
+                            <div class="attr-detail"><span class="attr-detail-label">Buy crafts</span><span>Badulla main market</span></div>
+                            <div class="attr-detail"><span class="attr-detail-label">Learn more</span><span>Local cultural centres</span></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ======================== CONTACT PAGE ======================== -->
+        <section class="page-panel contact-bg">
+            <div class="contact-inner">
+                <div class="contact-left">
+                    <span class="section-eyebrow">Plan Your Visit</span>
+                    <h2 class="contact-title">Get in<br><em>Touch</em></h2>
+                    <p class="contact-intro">Have questions about visiting Badulla? Want to arrange a guided tour, find accommodation, or learn about seasonal conditions? Fill in the form and we'll get back to you.</p>
+
+                    <div class="contact-info-block">
+                        <div class="contact-info-item">
+                            <span class="contact-info-icon">📍</span>
+                            <div>
+                                <strong>Location</strong>
+                                <span>Badulla, Uva Province, Sri Lanka</span>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <span class="contact-info-icon">🕐</span>
+                            <div>
+                                <strong>Best time to visit</strong>
+                                <span>January–April, July–September</span>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <span class="contact-info-icon">🌡️</span>
+                            <div>
+                                <strong>Climate</strong>
+                                <span>Cool highland — avg. 18°C year-round</span>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <span class="contact-info-icon">✈️</span>
+                            <div>
+                                <strong>Nearest airport</strong>
+                                <span>Bandaranaike International (BIA), ~210 km</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-right">
+                    <div class="contact-form-card">
+                        <h3>Send us a message</h3>
+                        <div class="form-group">
+                            <label>Your Name</label>
+                            <input type="text" placeholder="e.g. Nimali Perera">
+                        </div>
+                        <div class="form-group">
+                            <label>Email Address</label>
+                            <input type="email" placeholder="your@email.com">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Travel Date</label>
+                                <input type="date">
+                            </div>
+                            <div class="form-group">
+                                <label>Group Size</label>
+                                <select>
+                                    <option>Solo traveller</option>
+                                    <option>2 people</option>
+                                    <option>3–5 people</option>
+                                    <option>6+ people</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>What are you interested in?</label>
+                            <div class="form-tags">
+                                <span class="form-tag active">Nature & Waterfalls</span>
+                                <span class="form-tag">Heritage Sites</span>
+                                <span class="form-tag">Tea Estates</span>
+                                <span class="form-tag">Hiking</span>
+                                <span class="form-tag">Culture & Food</span>
+                                <span class="form-tag">Railway Journey</span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Message</label>
+                            <textarea placeholder="Tell us about your trip plans, questions, or anything we can help with..."></textarea>
+                        </div>
+                        <button class="contact-submit">Send Message →</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-footer">
+                <span>© 2025 Badulla Tourism Guide · Uva Province, Sri Lanka</span>
+                <span>Made with 🌿 for travellers</span>
+            </div>
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
